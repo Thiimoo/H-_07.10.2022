@@ -12,7 +12,7 @@ public class ConcurrencyNumbers {
         String[] parts;
         List<Integer> integerList = new ArrayList<>();
         try{
-            Scanner s = new Scanner(new File("scr/numbers.csv"));
+            Scanner s = new Scanner(new File("src/numbers.csv"));
             while (s.hasNextLine())
             {
                 line = s.nextLine();
